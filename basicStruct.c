@@ -1,7 +1,7 @@
 #include <stdio.h>  
 #include <stdlib.h> 
 #include <string.h>
-#include "Project0.h" 
+#include "basicStruct.h" 
 
 int main ()
 {
