@@ -1,11 +1,11 @@
 # Define the machine object files for your program
-OBJECTS = iex998Project0.o
+OBJECTS = basicStruct.o
 # Define your include file
-INCLUDES = Project0.h
+INCLUDES = basicStruct.h
 
 # make for the executable
 sampleProject: ${OBJECTS}
-	gcc -g -o project0 ${OBJECTS}
+	gcc -g -o basicStruct ${OBJECTS}
 
 # Simple suffix rules for the .o
 %.o: %.c ${INCLUDES}
